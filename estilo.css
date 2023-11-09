@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Playpen+Sans&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-do-nome: #fff
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-color: black;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    color: blueviolet;
+    font-size: 5vw;
+    font-family: 'Playpen Sans';
+}
+h3 { 
+    color: #09ff00;
+    font-size: 5vw;
+    font-family: 'Playpen Sans';
+}
+
+#menu {
+    width: 100vw;
+    height: 10vh;
+    background-image: url('./textura.png');
+    background-repeat: repeat;
+    background-size: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    color: var(--cor-do-nome);
+    font-size: 2vw;
+}
+
+#lado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10vw 10vw 10vw;
+    gap: 5vw;
+}
+
+#html {
+    background-color: #10E06B;
+}
+
+#css{
+    background-color: #E0BD12;
+
+}
+#JS{
+    background-color: #4100E1;
+}
+#Pyt{
+    background-color: #E10501;
+}
+
+#Nome{
+    font-family: 'Playpen Sans';
+    color: #fff;
+    font-size: 3vw;
+}
+#icone{
+    color: var(--cor-do-nome);
+    stroke-width: 2.8;
+}
+
+#menu .espacador {
+    width: calc(100vw / 3);
+}
+
+#menu .espacador:nth-child(2) {
+    display: flex;
+    justify-content: center;
+}
+
+#menu .espacador:nth-child(3) {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2vw;
+}
+
+#troll, #homenagem {
+    color: var(--cor-do-nome);
+    text-decoration: none;
+}
+
+.retangulo {
+    padding: 0.5vw;
+    background-color: aliceblue;
+    font-size: 3vw;
+    color: #000;
+    text-decoration: none;
+}
+
+.linguagens {
+    display: flex;
+    flex-direction: row;
+    gap: 10vw;
+}
+#sol{ 
+    color: yellow;
+    text-decoration: none;
+}
+
+@keyframes rebolar_na_base {
+    0% {
+        rotate: 0deg;
+    }
+    100% {
+        rotate: 360deg;
+    }
+}
+
+#nub:hover {
+    animation: rebolar_na_base 2s linear infinite;
+}
