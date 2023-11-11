@@ -12,6 +12,22 @@ document.querySelector('#sol').addEventListener('click', () => {
     window.open("https://www.instagram.com/ana.freitas_8/", '_blank')
 })
 
+document.querySelector('#HTML').addEventListener('click', () => {
+    window.open("https://pt.wikipedia.org/wiki/HTML", '_blank')
+})
+
+document.querySelector('#CSS').addEventListener('click', () => {
+    window.open("https://pt.wikipedia.org/wiki/Cascading_Style_Sheets", '_blank')
+})
+
+document.querySelector('#JS').addEventListener('click', () => {
+    window.open("https://pt.wikipedia.org/wiki/JavaScript", '_blank')
+})
+
+document.querySelector('#Pyt').addEventListener('click', () => {
+    window.open("https://pt.wikipedia.org/wiki/Python", '_blank')
+})
+
 const titulos = ['Projec-TI 🎴', 'Projec-TI ☀️', 'Projec-TI 🌙']
 
 const tempo = 1000
